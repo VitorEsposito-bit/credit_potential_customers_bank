@@ -16,3 +16,7 @@ O relatório foi considerado ao criar uma pontuação de crédito de um cliente 
 - debt : se o cliente já deixou de pagar um empréstimo
 - total_income : renda mensal
 - purpose : motivo para fazer um empréstimo
+
+### Colunas criadas via análise:
+- family_category : categoria familiar (children + family_status)
+- credit_potential: potencial de crédito
