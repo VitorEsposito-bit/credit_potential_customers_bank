@@ -1,22 +1,23 @@
-# credit_potential_customers_bank
+# Credit_Potential_Customers_Bank
+The idea of the project was to prepare a report for the loan division of a fictional bank. I had to test whether a client's marital status and number of children have an impact on loan default.
+The report was considered when creating a credit score for a potential customer. A credit score is used to assess a potential borrower's ability to repay their loan.
 
-A ideia do projeto foi preparar um relatório para a divisão de empréstimos de um banco fictício. Tive que testar se o estado civil de um cliente e o número de filhos têm impacto sobre a inadimplência de um empréstimo. 
-O relatório foi considerado ao criar uma pontuação de crédito de um cliente em potencial. Uma pontuação de crédito é usada para avaliar a capacidade de um devedor em potencial de pagar seu empréstimo.
+## Data Description
 
-## Descrição de dados
-- children : o número de crianças na família
-- days_employed : quanto tempo o cliente trabalhou
-- dob_years : a idade do cliente
-- education : o nível de educação do cliente
-- education_id : identificador da educação do cliente
-- family_status : estado civil do cliente
-- family_status_id : identificador do estado civil do cliente
-- gender : o sexo do cliente
-- income_type : o tipo de renda do cliente
-- debt : se o cliente já deixou de pagar um empréstimo
-- total_income : renda mensal
-- purpose : motivo para fazer um empréstimo
+children: the number of children in the family
+days_employed: how long the client has been employed
+dob_years: the client's age
+education: the client's education level
+education_id: identifier for the client's education
+family_status: the client's marital status
+family_status_id: identifier for the client's marital status
+gender: the client's gender
+income_type: the client's income type
+debt: whether the client has already defaulted on a loan
+total_income: monthly income
+purpose: reason for taking a loan
 
-### Colunas criadas via análise:
-- family_category : categoria familiar (children + family_status)
-- credit_potential: potencial de crédito
+### Columns created through analysis:
+
+family_category: family category (children + family_status)
+credit_potential: credit potential
